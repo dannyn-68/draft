@@ -25,6 +25,8 @@ set_site_information(
 
 set_website_style("none")
 
+hide_debug_information()
+
 
 # ==========================================
 # WEBSITE DECORATION
