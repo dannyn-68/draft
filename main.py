@@ -25,8 +25,6 @@ set_site_information(
 
 set_website_style("none")
 
-hide_debug_information()
-
 
 # ==========================================
 # WEBSITE DECORATION
@@ -1690,6 +1688,8 @@ def save_profile(
 # The State instance is passed directly to
 # start_server, so no global state variable
 # is needed.
+
+hide_debug_information()
 
 start_server(State(
     [],
